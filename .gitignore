@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -11,6 +12,8 @@
 =======
 =======
 >>>>>>> 7df9b4b76d0f5a1f1250005c8f07fff7dd114e63
+=======
+>>>>>>> 124df129c7f43dce36010b4b8687fa1041940c26
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -24,6 +27,9 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7df9b4b76d0f5a1f1250005c8f07fff7dd114e63
 =======
 >>>>>>> 7df9b4b76d0f5a1f1250005c8f07fff7dd114e63
+=======
+>>>>>>> 124df129c7f43dce36010b4b8687fa1041940c26
