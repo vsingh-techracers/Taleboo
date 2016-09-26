@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_bw_element">4dp</dimen>
+    <dimen name="largeText">12sp</dimen>
+    <dimen name="mediumText">10sp</dimen>
+    <dimen name="checkBox">34dp</dimen>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="appLogoTextSize">20sp</dimen>
+    <dimen name="loginButtonLayout_Margin">4dp</dimen>
+    <dimen name="loginButtonTextSize">16sp</dimen>
+    <dimen name="smallTextTextSize">14sp</dimen>
+    <dimen name="cardview_layout_margin">4dp</dimen>
+    <dimen name="cardview_corner_radius">2dp</dimen>
+    <dimen name="cardview_elevtion">5dp</dimen>
+    <dimen name="cardview_linear_layout_padding">2dp</dimen>
+    <dimen name="cardview_textSize">14sp</dimen>
+    <dimen name="list_view_item_text_size">12sp</dimen>
+
+</resources>

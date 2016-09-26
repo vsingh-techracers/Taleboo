@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="appName">TALEEBO</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="term1"> I have understand and agree to the</string>
+    <string name="term2">Term of use</string>
+    <string name="signupText">SIGN UP</string>
+    <string name="footerText">DON\'T HAVE AN ACCOUNT?</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="loginWithFb">Login with Facebook</string>
+    <string name="cardviewText1">Entertainment</string>
+    <string name="cardviewText2">Gym</string>
+    <string name="cardviewText3">Trekking</string>
+    <string name="cardviewText4">Travelling</string>
+    <string name="cardviewText5">Surfing</string>
+    <string name="cardviewText6">Outing</string>
+    <string-array name="project_name_arrays">
+        <item>Select City</item>
+        <item>html Project</item>
+        <item>css project</item>
+        <item>html Project</item>
+        <item>css project</item>
+        <item>html Project</item>
+        <item>css project</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

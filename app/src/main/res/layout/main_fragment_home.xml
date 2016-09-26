@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBE9EC">
+
+    <include layout="@layout/app_bar"
+        android:id="@+id/app_bar" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView"
+        android:padding="2dp"
+        android:background="#e4e4e4">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linear_card_view">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tabHost">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true"
+                    android:scrollbars="none">
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"/>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <View style="@style/line"/>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0"/>
+
+            <!--<HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/realtabcontent2"
+                android:orientation="horizontal"
+                android:gravity="center">
+            </LinearLayout>
+
+            </HorizontalScrollView>-->
+
+            <!--<FrameLayout
+                android:id="@+id/realtabcontent2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>-->
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/HomemainViewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </TabHost>
+
+  <!--  <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/homePagetabHost">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true"
+                    android:scrollbars="none">
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"/>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="0dp"
+                android:layout_height="0dp"/>
+            <android.support.v4.view.ViewPager
+                android:id="@+id/mainViewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </TabHost-->>
+
+</LinearLayout>
+

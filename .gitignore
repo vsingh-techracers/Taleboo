@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+=======
+=======
+>>>>>>> 7df9b4b76d0f5a1f1250005c8f07fff7dd114e63
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+<<<<<<< HEAD
+>>>>>>> 7df9b4b76d0f5a1f1250005c8f07fff7dd114e63
+=======
+>>>>>>> 7df9b4b76d0f5a1f1250005c8f07fff7dd114e63

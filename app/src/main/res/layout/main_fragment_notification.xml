@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vinay.taleebo.mainFragments.NotificationFragment"
+    android:background="#fcf">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="I am Notification fragment"
+    android:layout_gravity="center"
+    android:textSize="20sp"/>
+
+</FrameLayout>
